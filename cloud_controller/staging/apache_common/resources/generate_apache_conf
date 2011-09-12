@@ -34,10 +34,8 @@ output_path = 'apache/envvars'
 template = <<-ERB
 unset HOME
 export APACHE_BASEDIR=<%= base_dir %>/apache
-#export APACHE_RUN_USER=www-data
-export APACHE_RUN_USER=root
-#export APACHE_RUN_GROUP=www-data
-export APACHE_RUN_GROUP=root
+export APACHE_RUN_USER=www-data
+export APACHE_RUN_GROUP=www-data
 export APACHE_PID_FILE=<%= base_dir %>/run.pid
 export APACHE_RUN_DIR=$APACHE_BASEDIR/run/apache2
 export APACHE_LOCK_DIR=$APACHE_BASEDIR/lock/apache2
