@@ -31,3 +31,8 @@ intervals:
   flapping_timeout:    180
   restart_timeout:      20
   stable_state:         60
+
+status:
+  port: 34502
+  user: thin
+  password: thin
