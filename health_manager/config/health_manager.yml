@@ -35,7 +35,7 @@ intervals:
 # Used for /healthz and /vars endpoints. If not provided random
 # values will be generated on component start. Uncomment to use 
 # static values.
-#status:
-#  port: 34502
-#  user: thin
-#  password: thin
+status:
+  port: 34502
+  user: thin
+  password: thin
